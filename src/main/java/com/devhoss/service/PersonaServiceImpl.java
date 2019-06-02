@@ -1,6 +1,5 @@
 package com.devhoss.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,6 @@ import com.devhoss.repository.IPersonaRepository;
 
 @Service
 public class PersonaServiceImpl implements IPersonaService{
-
 
 	@Autowired
 	private IPersonaRepository iPersonaRepository;
